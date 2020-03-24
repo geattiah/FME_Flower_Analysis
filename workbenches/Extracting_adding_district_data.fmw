@@ -2,11 +2,12 @@
 #! <WORKSPACE
 #    Command-line to run this workspace:
 #        /opt/fme-desktop-2020/fme /home/gift/Documents/git_projects/fme/fme_flower_analysis/workbenches/Extracting_adding_district_data.fmw
-#              --SourceDataset_SHAPEFILE_7 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp"
-#              --SourceDataset_SHAPEFILE_4 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/Germay_district.shp"
 #              --DestDataset_SHAPEFILE_2 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
-#              --DestDataset_SHAPEFILE "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
 #              --SourceDataset_SHAPEFILE "/home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_states.shp"
+#              --DestDataset_SHAPEFILE "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
+#              --DestDataset_SHAPEFILE_3 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
+#              --SourceDataset_SHAPEFILE_5 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp"
+#              --SourceDataset_SHAPEFILE_4 "/home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_district.shp"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -15,14 +16,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="5955.02 881.999"
-#!   DOC_TOP_LEFT="-1669.02 -458.992"
+#!   DOC_EXTENTS="5733.02 881.999"
+#!   DOC_TOP_LEFT="-1447.01 -458.992"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="20202"
-#!   FME_DOCUMENT_GUID="8a9a01d7-ab77-4820-8182-6e80150be88a"
-#!   FME_DOCUMENT_PRIORGUID="9dc8db6b-c6dc-48cf-8a6b-edac8a6aaa31,cc870170-554c-4a2b-8da5-473e63b6bc9d,138c131d-12a9-443e-b324-7be1b31ac2a1,eed72451-3353-4acf-b911-f23bea60c85f,90dda3cc-e54a-4297-b419-bd511afe481b,6c313a93-e6dd-4706-83cd-96c65627ff9a,3c93b01a-964d-41e8-9b6e-caf1473ed181,1fddbea3-46a8-4b6f-b8b0-668737e63c18,b7162240-6b3d-4a65-9c4f-31030b1f3307,53026ef0-71cb-4d00-8fc8-1b53dfe39082,1ea24f53-c1e0-471f-90c6-e80c96b9264c,ab1d5fc6-77a3-4cb2-800c-d31dcf9716cd,76a53040-ba0b-4ff9-b5bc-608a20b1e321,6a8d043c-d12a-4581-afd0-ef4d5113f195,5cc50ef1-856f-4ee6-8570-a4db109c9084,40d33e50-cb18-4aac-a656-67b70d02d06f,fe958c7f-a6fa-4169-89ae-830baeef0e99,c10f6bb8-ca04-41f3-9cd6-28116536e24d"
+#!   FME_DOCUMENT_GUID="2aeea7f1-09d1-47ae-bf7d-f3d4fcc69e3a"
+#!   FME_DOCUMENT_PRIORGUID="9dc8db6b-c6dc-48cf-8a6b-edac8a6aaa31,cc870170-554c-4a2b-8da5-473e63b6bc9d,138c131d-12a9-443e-b324-7be1b31ac2a1,eed72451-3353-4acf-b911-f23bea60c85f,90dda3cc-e54a-4297-b419-bd511afe481b,6c313a93-e6dd-4706-83cd-96c65627ff9a,3c93b01a-964d-41e8-9b6e-caf1473ed181,1fddbea3-46a8-4b6f-b8b0-668737e63c18,b7162240-6b3d-4a65-9c4f-31030b1f3307,53026ef0-71cb-4d00-8fc8-1b53dfe39082,1ea24f53-c1e0-471f-90c6-e80c96b9264c,ab1d5fc6-77a3-4cb2-800c-d31dcf9716cd,76a53040-ba0b-4ff9-b5bc-608a20b1e321,6a8d043c-d12a-4581-afd0-ef4d5113f195,5cc50ef1-856f-4ee6-8570-a4db109c9084,40d33e50-cb18-4aac-a656-67b70d02d06f,fe958c7f-a6fa-4169-89ae-830baeef0e99,c10f6bb8-ca04-41f3-9cd6-28116536e24d,8a9a01d7-ab77-4820-8182-6e80150be88a,8ec8512e-5738-413a-b764-53df4bfe4af6,b8ab4cf0-02fa-4805-aa55-047955b0082a,ad5d8f81-313f-4f2b-a585-df170c660e5a"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.0.0.1 (20200316 - Build 20202 - linux-x64)"
-#!   LAST_SAVE_DATE="2020-03-24T19:59:58"
+#!   LAST_SAVE_DATE="2020-03-24T21:46:16"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1860.02 495.005"
+#!   VIEW_POSITION="1071.01 642.006"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -60,8 +61,8 @@
 #!   IS_SOURCE="true"
 #!   ROLE="READER"
 #!   FORMAT="SHAPEFILE"
-#!   DATASET="$(SourceDataset_SHAPEFILE_7)"
-#!   KEYWORD="SHAPEFILE_2"
+#!   DATASET="$(SourceDataset_SHAPEFILE)"
+#!   KEYWORD="SHAPEFILE_3"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
 #!   ATTR_CASE="ANY"
@@ -69,7 +70,66 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle double shape_geometry_error char(254) fme_dataset char(50) multi_reader_keyword char(50) fme_secondary_axis double multi_reader_full_id long fme_rotation double fme_primary_axis double fme_color char(50) fme_geometry char(50) fme_fill_color char(50) fme_basename char(50) shapefile_type char(30) fme_text_string char(50) multi_reader_type char(50) fme_text_size double multi_reader_id long fme_feature_type char(50) fme_sweep_angle double fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_text_string char(50) multi_reader_keyword char(50) shape_geometry_error char(254) fme_basename char(50) multi_reader_id long fme_fill_color char(50) fme_type char(50) fme_rotation double fme_secondary_axis double fme_start_angle double multi_reader_type char(50) fme_dataset char(50) fme_geometry char(50) fme_primary_axis double fme_feature_type char(50) fme_sweep_angle double shapefile_type char(30) multi_reader_full_id long fme_text_size double"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="20202"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="SHAPEFILE_IN_ENCODING"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shapefile_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="SHAPEFILE"
+#!   DATASET="$(SourceDataset_SHAPEFILE_5)"
+#!   KEYWORD="SHAPEFILE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_text_string char(50) multi_reader_keyword char(50) shape_geometry_error char(254) fme_basename char(50) multi_reader_id long fme_fill_color char(50) fme_type char(50) fme_rotation double fme_secondary_axis double fme_start_angle double multi_reader_type char(50) fme_dataset char(50) fme_geometry char(50) fme_primary_axis double fme_feature_type char(50) fme_sweep_angle double shapefile_type char(30) multi_reader_full_id long fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -120,7 +180,7 @@
 #!   ROLE="READER"
 #!   FORMAT="SHAPEFILE"
 #!   DATASET="$(SourceDataset_SHAPEFILE_4)"
-#!   KEYWORD="SHAPEFILE_3"
+#!   KEYWORD="SHAPEFILE_2"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
 #!   ATTR_CASE="ANY"
@@ -128,66 +188,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle double shape_geometry_error char(254) fme_dataset char(50) multi_reader_keyword char(50) fme_secondary_axis double multi_reader_full_id long fme_rotation double fme_primary_axis double fme_color char(50) fme_geometry char(50) fme_fill_color char(50) fme_basename char(50) shapefile_type char(30) fme_text_string char(50) multi_reader_type char(50) fme_text_size double multi_reader_id long fme_feature_type char(50) fme_sweep_angle double fme_type char(50)"
-#!   DEFLINE_PARMS=""
-#!   ATTR_INDEX_TYPES="Indexed"
-#!   ATTR_NAME_INVALID_CHARS=""
-#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
-#!   ENABLED="true"
-#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
-#!   DATASET_TYPE="FILEDIR"
-#!   FTTR_TYPE="LISTBOX_ENCODED"
-#!   GENERATE_FME_BUILD_NUM="20202"
-#!   COORDSYS=""
-#!   FEATURE_TYPES=""
-#!   MAX_FEATURES=""
-#!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   MIN_FEATURES=""
-#!   START_FEATURE=""
-#! >
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="SHAPEFILE_IN_ENCODING"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="shp file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DEFAULT_GEOMETRY_TYPE"
-#!   VALUE="shapefile_first_feature"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Shapefile1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Shapefile"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the Esri Shapefile(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the Esri Shapefile"
-#! />
-#! </DATASET>
-#! <DATASET
-#!   IS_SOURCE="true"
-#!   ROLE="READER"
-#!   FORMAT="SHAPEFILE"
-#!   DATASET="$(SourceDataset_SHAPEFILE)"
-#!   KEYWORD="SHAPEFILE_1"
-#!   MULTI_GEOM_ALLOWED="false"
-#!   ATTR_MAX_LENGTH="0"
-#!   ATTR_CASE="ANY"
-#!   ALLOWED_FEAT_TYPES=""
-#!   WRITE_DEFS="true"
-#!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
-#!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle double shape_geometry_error char(254) fme_dataset char(50) multi_reader_keyword char(50) fme_secondary_axis double multi_reader_full_id long fme_rotation double fme_primary_axis double fme_color char(50) fme_geometry char(50) fme_fill_color char(50) fme_basename char(50) shapefile_type char(30) fme_text_string char(50) multi_reader_type char(50) fme_text_size double multi_reader_id long fme_feature_type char(50) fme_sweep_angle double fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_text_string char(50) multi_reader_keyword char(50) shape_geometry_error char(254) fme_basename char(50) multi_reader_id long fme_fill_color char(50) fme_type char(50) fme_rotation double fme_secondary_axis double fme_start_angle double multi_reader_type char(50) fme_dataset char(50) fme_geometry char(50) fme_primary_axis double fme_feature_type char(50) fme_sweep_angle double shapefile_type char(30) multi_reader_full_id long fme_text_size double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -237,8 +238,8 @@
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="SHAPEFILE"
-#!   DATASET="$(DestDataset_SHAPEFILE)"
-#!   KEYWORD="SHAPEFILE_4"
+#!   DATASET="$(DestDataset_SHAPEFILE_2)"
+#!   KEYWORD="SHAPEFILE_5"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="10"
 #!   ATTR_CASE="ANY"
@@ -246,7 +247,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis double shapefile_type char(30) fme_geometry char(50) fme_feature_type char(50) fme_start_angle double fme_sweep_angle double fme_rotation double fme_dataset char(50) fme_text_string char(50) fme_secondary_axis double fme_color char(50) fme_fill_color char(50) fme_type char(50) fme_basename char(50) fme_text_size double"
+#!   EXPOSABLE_ATTRS="fme_start_angle double fme_geometry char(50) fme_fill_color char(50) fme_color char(50) fme_text_size double fme_primary_axis double fme_text_string char(50) fme_rotation double fme_type char(50) fme_feature_type char(50) shapefile_type char(30) fme_basename char(50) fme_dataset char(50) fme_sweep_angle double fme_secondary_axis double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group DIMENSION Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE DIMENSION Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,AUTO%2D,2D%2D&lt;space&gt;+&lt;space&gt;Measures,2DM%3D&lt;space&gt;+&lt;space&gt;Measures,3DM Output Dimension:&quot; AUTO "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -293,8 +294,8 @@
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="SHAPEFILE"
-#!   DATASET="$(DestDataset_SHAPEFILE_2)"
-#!   KEYWORD="SHAPEFILE_5"
+#!   DATASET="$(DestDataset_SHAPEFILE)"
+#!   KEYWORD="SHAPEFILE_4"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="10"
 #!   ATTR_CASE="ANY"
@@ -302,7 +303,63 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis double shapefile_type char(30) fme_geometry char(50) fme_feature_type char(50) fme_start_angle double fme_sweep_angle double fme_rotation double fme_dataset char(50) fme_text_string char(50) fme_secondary_axis double fme_color char(50) fme_fill_color char(50) fme_type char(50) fme_basename char(50) fme_text_size double"
+#!   EXPOSABLE_ATTRS="fme_start_angle double fme_geometry char(50) fme_fill_color char(50) fme_color char(50) fme_text_size double fme_primary_axis double fme_text_string char(50) fme_rotation double fme_type char(50) fme_feature_type char(50) fme_basename char(50) shapefile_type char(30) fme_dataset char(50) fme_sweep_angle double fme_secondary_axis double"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group DIMENSION Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE DIMENSION Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,AUTO%2D,2D%2D&lt;space&gt;+&lt;space&gt;Measures,2DM%3D&lt;space&gt;+&lt;space&gt;Measures,3DM Output Dimension:&quot; AUTO "
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="20202"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="SHAPEFILE_OUT_SURFACE_SOLID_STORAGE SHAPEFILE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shapefile_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="SHAPEFILE"
+#!   DATASET="$(DestDataset_SHAPEFILE_3)"
+#!   KEYWORD="SHAPEFILE_6"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="10"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_start_angle double fme_geometry char(50) fme_fill_color char(50) fme_color char(50) fme_text_size double fme_primary_axis double fme_text_string char(50) fme_rotation double fme_type char(50) fme_feature_type char(50) fme_basename char(50) shapefile_type char(30) fme_dataset char(50) fme_sweep_angle double fme_secondary_axis double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group DIMENSION Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE DIMENSION Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,AUTO%2D,2D%2D&lt;space&gt;+&lt;space&gt;Measures,2DM%3D&lt;space&gt;+&lt;space&gt;Measures,3DM Output Dimension:&quot; AUTO "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -928,62 +985,6 @@
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
-#!   IS_SOURCE="true"
-#!   NODE_NAME="schleswig_holstein"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="false"
-#!   IDENTIFIER="10"
-#!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="942.00880184097059 -138.99249992499924"
-#!   BOUNDING_RECT="942.00880184097059 -138.99249992499924 519.00106825772946 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="true"
-#!   KEYWORD="SHAPEFILE_2"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   HIDDEN_USER_ATTRS=""
-#!   MERGE_FILTER=""
-#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
-#!   MERGE_FILTER_CASE_SENSITIVE="true"
-#!   DYNAMIC_SCHEMA="false"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="number(11,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#!   IS_SOURCE="true"
-#!   NODE_NAME="Germay_district"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="false"
-#!   IDENTIFIER="22"
-#!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="942.00880184097059 408.00891008910082"
-#!   BOUNDING_RECT="942.00880184097059 408.00891008910082 466.00106825772946 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="true"
-#!   KEYWORD="SHAPEFILE_3"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   HIDDEN_USER_ATTRS=""
-#!   MERGE_FILTER=""
-#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
-#!   MERGE_FILTER_CASE_SENSITIVE="true"
-#!   DYNAMIC_SCHEMA="false"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
 #!   IS_SOURCE="false"
 #!   NODE_NAME="Districts_SH"
 #!   FEATURE_TYPE_NAME=""
@@ -1008,32 +1009,6 @@
 #!     <DEFLINE_PARM PARM_NAME="shape_layer_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
-#!   IS_SOURCE="false"
-#!   NODE_NAME="schleswig_holstein"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="false"
-#!   IDENTIFIER="8"
-#!   FEAT_GEOMTYPE="shapefile_first_feature"
-#!   POSITION="13.999939999398293 -138.99249992499924"
-#!   BOUNDING_RECT="13.999939999398293 -138.99249992499924 519.00106825772946 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="false"
-#!   KEYWORD="SHAPEFILE_4"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="0"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="DIMENSION" PARM_VALUE="AUTO"/>
-#!     <DEFLINE_PARM PARM_NAME="shape_layer_group" PARM_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
 #!   IS_SOURCE="true"
 #!   NODE_NAME="Germany_states"
 #!   FEATURE_TYPE_NAME=""
@@ -1041,11 +1016,11 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="27"
 #!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="-1669.0168901689017 134.00369003690037"
-#!   BOUNDING_RECT="-1669.0168901689017 134.00369003690037 431 71"
+#!   POSITION="-1447.0146701467015 -105.99870998709989"
+#!   BOUNDING_RECT="-1447.0146701467015 -105.99870998709989 471.00106825772946 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
-#!   KEYWORD="SHAPEFILE_1"
+#!   KEYWORD="SHAPEFILE_3"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   HIDDEN_USER_ATTRS=""
@@ -1061,52 +1036,134 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="schleswig_holstein"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="29"
+#!   FEAT_GEOMTYPE="shapefile_polygon"
+#!   POSITION="114.98339158686832 74.003090030900353"
+#!   BOUNDING_RECT="114.98339158686832 74.003090030900353 519.00106825772946 71"
+#!   ORDER="500000000000020"
+#!   COLLAPSED="true"
+#!   KEYWORD="SHAPEFILE_6"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="number(11,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="DIMENSION" PARM_VALUE="AUTO"/>
+#!     <DEFLINE_PARM PARM_NAME="shape_layer_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="schleswig_holstein"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="21"
+#!   FEAT_GEOMTYPE="shapefile_polygon"
+#!   POSITION="980.00960009600112 74.003090030900353"
+#!   BOUNDING_RECT="980.00960009600112 74.003090030900353 519.00106825772946 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="SHAPEFILE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="number(11,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Germany_district"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="22"
+#!   FEAT_GEOMTYPE="shapefile_polygon"
+#!   POSITION="1010.0096000960011 348.00891008910082"
+#!   BOUNDING_RECT="1010.0096000960011 348.00891008910082 489.00106825772946 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="SHAPEFILE_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="USE" ATTR_TYPE="long" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS" ATTR_TYPE="char(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RS_ALT" ATTR_TYPE="char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GEN" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="double" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
 #! <DATASET
-#!   NAME="SHAPEFILE_1"
-#!   OVERRIDE="-SHAPEFILE_1_DATASET"
-#!   DATASET="SHAPEFILE_1/Germany_states.shp"
+#!   NAME="SHAPEFILE_2"
+#!   OVERRIDE="-SHAPEFILE_2_DATASET"
+#!   DATASET="SHAPEFILE_2/Germany_district.shp"
 #! />
 #! <DATASET
 #!   NAME="SHAPEFILE_3"
 #!   OVERRIDE="-SHAPEFILE_3_DATASET"
-#!   DATASET="SHAPEFILE_3/Germay_district.shp"
+#!   DATASET="SHAPEFILE_3/Germany_states.shp"
 #! />
 #! <DATASET
-#!   NAME="SHAPEFILE_2"
-#!   OVERRIDE="-SHAPEFILE_2_DATASET"
-#!   DATASET="SHAPEFILE_2/schleswig_holstein.shp"
+#!   NAME="SHAPEFILE_1"
+#!   OVERRIDE="-SHAPEFILE_1_DATASET"
+#!   DATASET="SHAPEFILE_1/schleswig_holstein.shp"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
+#! <DATASET
+#!   NAME="SHAPEFILE_5"
+#!   OVERRIDE="-SHAPEFILE_5_DATASET"
+#!   DATASET="SHAPEFILE_5/output_shapefiles"
+#! />
 #! <DATASET
 #!   NAME="SHAPEFILE_4"
 #!   OVERRIDE="-SHAPEFILE_4_DATASET"
 #!   DATASET="SHAPEFILE_4/output_shapefiles"
 #! />
 #! <DATASET
-#!   NAME="SHAPEFILE_5"
-#!   OVERRIDE="-SHAPEFILE_5_DATASET"
-#!   DATASET="SHAPEFILE_5/output_shapefiles"
+#!   NAME="SHAPEFILE_6"
+#!   OVERRIDE="-SHAPEFILE_6_DATASET"
+#!   DATASET="SHAPEFILE_6/output_shapefiles"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE_4 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/Germay_district.shp"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_SHAPEFILE_2 Destination Esri Shapefile Folder:"
 #!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_states.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1115,8 +1172,18 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_states.shp"
+#!   GUI_LINE="GUI DIRNAME DestDataset_SHAPEFILE_3 Destination Esri Shapefile Folder:"
+#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE_5 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE_4 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="/home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_district.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1579,8 +1646,8 @@
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="21"
-#!   SOURCE_NODE="10"
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="21"
 #!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 1 Supplier"
@@ -1699,9 +1766,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="9"
+#!   IDENTIFIER="30"
 #!   SOURCE_NODE="6"
-#!   TARGET_NODE="8"
+#!   TARGET_NODE="29"
 #!   SOURCE_PORT_DESC="fo 18 Schleswig-Holstein"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
@@ -1725,149 +1792,47 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 2or3
-GUI IGNORE SourceDataset_SHAPEFILE_2,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2,SHAPEFILE_IN_ENCODING_SHAPEFILE_2,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2,SHAPEFILE_IN_ADVANCED_SHAPEFILE_2,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2,SourceDataset_SHAPEFILE_3,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_3,SHAPEFILE_IN_ENCODING_SHAPEFILE_3,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_3,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_3,SHAPEFILE_IN_ADVANCED_SHAPEFILE_3,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_3,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_3,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_3,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_3,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_3,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_3,SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,DestDataset_SHAPEFILE_4,SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4,SHAPEFILE_OUT_ENCODING_SHAPEFILE_4,SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4,SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4,SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4,SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4,SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4,SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4,SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4,DestDataset_SHAPEFILE_5,SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_5,SHAPEFILE_OUT_ENCODING_SHAPEFILE_5,SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_5,SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_5,SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_5,SHAPEFILE_OUT_ADVANCED_SHAPEFILE_5,SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_5,SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_5,SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_5
-DEFAULT_MACRO SourceDataset_SHAPEFILE_7 /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp
-GUI MULTIFILE SourceDataset_SHAPEFILE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SourceDataset_SHAPEFILE_4 /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/Germay_district.shp
-GUI MULTIFILE SourceDataset_SHAPEFILE_4 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+GUI IGNORE SourceDataset_SHAPEFILE_3,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_3,SHAPEFILE_IN_ENCODING_SHAPEFILE_3,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_3,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_3,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_3,SHAPEFILE_IN_ADVANCED_SHAPEFILE_3,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_3,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_3,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_3,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_3,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_3,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_3,SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,SourceDataset_SHAPEFILE_2,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2,SHAPEFILE_IN_ENCODING_SHAPEFILE_2,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2,SHAPEFILE_IN_ADVANCED_SHAPEFILE_2,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2,DestDataset_SHAPEFILE_5,SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_5,SHAPEFILE_OUT_ENCODING_SHAPEFILE_5,SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_5,SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_5,SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_5,SHAPEFILE_OUT_ADVANCED_SHAPEFILE_5,SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_5,SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_5,SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_5,DestDataset_SHAPEFILE_4,SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4,SHAPEFILE_OUT_ENCODING_SHAPEFILE_4,SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4,SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4,SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4,SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4,SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4,SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4,SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4,DestDataset_SHAPEFILE_6,SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_6,SHAPEFILE_OUT_ENCODING_SHAPEFILE_6,SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_6,SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_6,SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_6,SHAPEFILE_OUT_ADVANCED_SHAPEFILE_6,SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_6,SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_6,SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_6
 DEFAULT_MACRO DestDataset_SHAPEFILE_2 /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles
 GUI DIRNAME DestDataset_SHAPEFILE_2 Destination Esri Shapefile Folder:
-DEFAULT_MACRO DestDataset_SHAPEFILE /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles
-GUI DIRNAME DestDataset_SHAPEFILE Destination Esri Shapefile Folder:
 DEFAULT_MACRO SourceDataset_SHAPEFILE /home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_states.shp
 GUI MULTIFILE SourceDataset_SHAPEFILE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
-INCLUDE [ if {{$(SourceDataset_SHAPEFILE_7)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE_7' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(SourceDataset_SHAPEFILE_4)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE_4' must be given a value.}; exit 1; }; ]
+DEFAULT_MACRO DestDataset_SHAPEFILE /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles
+GUI DIRNAME DestDataset_SHAPEFILE Destination Esri Shapefile Folder:
+DEFAULT_MACRO DestDataset_SHAPEFILE_3 /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles
+GUI DIRNAME DestDataset_SHAPEFILE_3 Destination Esri Shapefile Folder:
+DEFAULT_MACRO SourceDataset_SHAPEFILE_5 /home/gift/Documents/git_projects/fme/fme_flower_analysis/output_shapefiles/schleswig_holstein.shp
+GUI MULTIFILE SourceDataset_SHAPEFILE_5 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO SourceDataset_SHAPEFILE_4 /home/gift/Documents/git_projects/fme/fme_flower_analysis/shapefiles_Data/Germany_district.shp
+GUI MULTIFILE SourceDataset_SHAPEFILE_4 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
 INCLUDE [ if {{$(DestDataset_SHAPEFILE_2)} == {}} { puts_real {Parameter 'DestDataset_SHAPEFILE_2' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(DestDataset_SHAPEFILE)} == {}} { puts_real {Parameter 'DestDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_SHAPEFILE)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_SHAPEFILE)} == {}} { puts_real {Parameter 'DestDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_SHAPEFILE_3)} == {}} { puts_real {Parameter 'DestDataset_SHAPEFILE_3' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_SHAPEFILE_5)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE_5' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_SHAPEFILE_4)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE_4' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} SHAPEFILE
-MULTI_READER_KEYWORD{0} SHAPEFILE_2
-MULTI_READER_GEN_DIRECTIVES{0} CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,ADVANCED,,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,DONUT_DETECTION,ORIENTATION,TRIM_PRECEDING_SPACES,Yes,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINY,0,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,ENCODING,fme-source-encoding,READ_BLANK_AS,MISSING,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,MEASURES_AS_Z,No,REPORT_BAD_GEOMETRY,No,_MERGE_SCHEMAS,YES
+MULTI_READER_KEYWORD{0} SHAPEFILE_3
+MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,READ_BLANK_AS,MISSING,ADVANCED,,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,Yes,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,DONUT_DETECTION,ORIENTATION,MEASURES_AS_Z,No,REPORT_BAD_GEOMETRY,No
 MULTI_READER_TYPE{1} SHAPEFILE
-MULTI_READER_KEYWORD{1} SHAPEFILE_3
-MULTI_READER_GEN_DIRECTIVES{1} READ_BLANK_AS,MISSING,DONUT_DETECTION,ORIENTATION,ENCODING,fme-source-encoding,ADVANCED,,SEARCH_ENVELOPE_MAXY,0,EXPOSE_ATTRS_GROUP,,TRIM_PRECEDING_SPACES,Yes,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MINY,0,USE_SEARCH_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,REPORT_BAD_GEOMETRY,No,SEARCH_ENVELOPE_MINX,0,_MERGE_SCHEMAS,YES,MEASURES_AS_Z,No,CLIP_TO_ENVELOPE,NO,SHAPEFILE_EXPOSE_FORMAT_ATTRS,
+MULTI_READER_KEYWORD{1} SHAPEFILE_1
+MULTI_READER_GEN_DIRECTIVES{1} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,READ_BLANK_AS,MISSING,ADVANCED,,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,Yes,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,DONUT_DETECTION,ORIENTATION,MEASURES_AS_Z,No,REPORT_BAD_GEOMETRY,No
 MULTI_READER_TYPE{2} SHAPEFILE
-MULTI_READER_KEYWORD{2} SHAPEFILE_1
-MULTI_READER_GEN_DIRECTIVES{2} ADVANCED,,MEASURES_AS_Z,No,TRIM_PRECEDING_SPACES,Yes,ENCODING,fme-source-encoding,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,DONUT_DETECTION,ORIENTATION,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINY,0,READ_BLANK_AS,MISSING,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,EXPOSE_ATTRS_GROUP,,REPORT_BAD_GEOMETRY,No,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0
+MULTI_READER_KEYWORD{2} SHAPEFILE_2
+MULTI_READER_GEN_DIRECTIVES{2} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,READ_BLANK_AS,MISSING,ADVANCED,,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,Yes,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXX,0,DONUT_DETECTION,ORIENTATION,MEASURES_AS_Z,No,REPORT_BAD_GEOMETRY,No
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} SHAPEFILE
-MULTI_WRITER_KEYWORD{0} SHAPEFILE_4
+MULTI_WRITER_KEYWORD{0} SHAPEFILE_5
 MULTI_WRITER_TYPE{1} SHAPEFILE
-MULTI_WRITER_KEYWORD{1} SHAPEFILE_5
+MULTI_WRITER_KEYWORD{1} SHAPEFILE_4
+MULTI_WRITER_TYPE{2} SHAPEFILE
+MULTI_WRITER_KEYWORD{2} SHAPEFILE_6
 #! END_WB_HEADER
-#! START_WB_HEADER
-MACRO WB_KEYWORD "SHAPEFILE_2"
-#! END_WB_HEADER
-#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_2
-# ============================================================================
-# The following GUI line prompts for the source shapefiles
-# The dataset this mapping file was generated from was:
-#! END_SOURCE_HEADER
-#! START_WB_HEADER
-DEFAULT_MACRO SourceDataset
-INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
- puts {DEFAULT_MACRO SourceDataset_SHAPEFILE_2 $(SourceDataset)}     \
- } ]
-#! END_WB_HEADER
-#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_2
-DEFAULT_MACRO SourceDataset_SHAPEFILE_2 $(SourceDataset_SHAPEFILE_7)
-GUI MULTIFILE SourceDataset_SHAPEFILE_2 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2 
-GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2 SHAPEFILE_IN_ENCODING_SHAPEFILE_2%SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
-# ============================================================================
-# The following keyword allows the user to choose what encoding to
-# use for reading the shapefile, overrides dbf file LDID or .cpg
-# file if present.
-DEFAULT_MACRO SHAPEFILE_IN_ENCODING_SHAPEFILE_2 fme-source-encoding
-SHAPEFILE_2_ENCODING "$(SHAPEFILE_IN_ENCODING_SHAPEFILE_2)"
-GUI STRING_OR_ENCODING SHAPEFILE_IN_ENCODING_SHAPEFILE_2 fme-source-encoding%UTF-8%ISO*%Big5%ibm*%Shift_JIS%GB2312%GBK%win*%KSC_5601%macintosh%x-mac* Character Encoding
-# ============================================================================
-# Determines whether numeric attributes should be interpreted as binary or as
-# bound number fields (ActualDBFrepresentation)
-DEFAULT_MACRO SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_2 STANDARD_TYPES
-SHAPEFILE_2_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_2)"
-#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
-DEFAULT_MACRO SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_2 
-SHAPEFILE_2_EXPOSE_ATTRS_GROUP "$(SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_2)"
-# Include this file in source setting section to add native search envelope processing
-# Zero as a default means we don't do any search -- this makes workbench happier
-DEFAULT_MACRO SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2 NO
-SHAPEFILE_2_USE_SEARCH_ENVELOPE "$(SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2)"
-GUI ACTIVEDISCLOSUREGROUP SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2 SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2%SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_METHOD%SHAPEFILE_IN_SEARCH_METHOD_FILTER%SHAPEFILE_IN_SEARCH_ORDER%SHAPEFILE_IN_SEARCH_FEATURE%SHAPEFILE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 <Unused>,0 
-DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 0
-SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2)"
-GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 Minimum X:
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 <Unused>,0 
-DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 0
-SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2)"
-GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 Minimum Y:
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 <Unused>,0 
-DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 0
-SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2)"
-GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 Maximum X:
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 <Unused>,0 
-DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 0
-SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2)"
-GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 Maximum Y:
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 <Unused>, 
-DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 
-SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2)"
-GUI OPTIONAL COORDSYS SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 Search Envelope Coordinate System:
-# ===========================================================================
-GUI LOOKUP SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 <Unused>,NO 
-DEFAULT_MACRO SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 NO
-SHAPEFILE_2_CLIP_TO_ENVELOPE "$(SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2)"
-GUI OPTIONAL CHECKBOX SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 YES%NO Clip to Search Envelope
-DEFAULT_MACRO SHAPEFILE_IN_ADVANCED_SHAPEFILE_2 
-GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_ADVANCED_SHAPEFILE_2 SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2%SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2%SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2%SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2%SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 Advanced
-DEFAULT_MACRO SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2 Yes
-SHAPEFILE_2_TRIM_PRECEDING_SPACES "$(SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2)"
-GUI CHOICE SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2 Yes%No Trim Preceding Spaces
-DEFAULT_MACRO SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2 MISSING
-SHAPEFILE_2_READ_BLANK_AS "$(SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2)"
-GUI LOOKUP_CHOICE SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2 Missing,MISSING%Null,NULL Read Blank Fields as:
-# ============================================================================
-# Option to use simple donut geometry creation, which is faster than the
-# original creation method, but less meticulous at detecting and correcting
-# geometric anomalies (i.e.holeswithinholes)
-DEFAULT_MACRO SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2 ORIENTATION
-SHAPEFILE_2_DONUT_DETECTION "$(SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2)"
-GUI LOOKUP_CHOICE SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2 "\"Orientation Only\",ORIENTATION"%"\"Orientation and Spatial Relationship\",SPATIAL" Donut Geometry Detection
-# ============================================================================
-# The following GUI line sets whether measure values in the shapefiles should
-# be treated as elevations.
-DEFAULT_MACRO SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2 No
-SHAPEFILE_2_MEASURES_AS_Z "$(SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2)"
-GUI CHOICE SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2 Yes%No Treat Measures as Elevation
-# ============================================================================
-# The following keyword sets whether bad geometry should be reported via
-# the shape_geometry_errors attribute.
-DEFAULT_MACRO SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 No
-SHAPEFILE_2_REPORT_BAD_GEOMETRY "$(SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2)"
-GUI CHOICE SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 Yes%No Report Geometry Anomalies
-# ===========================================================================
-DEFAULT_MACRO SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2 
-SHAPEFILE_2_NETWORK_AUTHENTICATION "$(SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2)"
-GUI OPTIONAL AUTHENTICATOR SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
-# ============================================================================ 
-DEFAULT_MACRO SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_2 ALL
-SHAPEFILE_2_ATTRIBUTE_READING "$(SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_2)"
-# ============================================================================ 
-SHAPEFILE_2_GENERATE_FME_BUILD_NUM 20202
-SHAPEFILE_2_DATASET "$(SourceDataset_SHAPEFILE_2)"
-#! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "SHAPEFILE_3"
 #! END_WB_HEADER
@@ -1883,7 +1848,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_3
-DEFAULT_MACRO SourceDataset_SHAPEFILE_3 $(SourceDataset_SHAPEFILE_4)
+DEFAULT_MACRO SourceDataset_SHAPEFILE_3 $(SourceDataset_SHAPEFILE)
 GUI MULTIFILE SourceDataset_SHAPEFILE_3 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
 DEFAULT_MACRO SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_3 
 GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_3 SHAPEFILE_IN_ENCODING_SHAPEFILE_3%SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
@@ -1990,7 +1955,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_1
-DEFAULT_MACRO SourceDataset_SHAPEFILE_1 $(SourceDataset_SHAPEFILE)
+DEFAULT_MACRO SourceDataset_SHAPEFILE_1 $(SourceDataset_SHAPEFILE_5)
 GUI MULTIFILE SourceDataset_SHAPEFILE_1 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
 DEFAULT_MACRO SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1 
 GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1 SHAPEFILE_IN_ENCODING_SHAPEFILE_1%SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
@@ -2083,69 +2048,112 @@ SHAPEFILE_1_GENERATE_FME_BUILD_NUM 20202
 SHAPEFILE_1_DATASET "$(SourceDataset_SHAPEFILE_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "SHAPEFILE_4"
+MACRO WB_KEYWORD "SHAPEFILE_2"
 #! END_WB_HEADER
-#! START_DEST_HEADER SHAPEFILE SHAPEFILE_4
+#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_2
 # ============================================================================
-# The following GUI line prompts for a folder to be used as the
-# the destination for the Esri Shapefiles.
-# The user input is stored in a macro, which is then used to define
-# the dataset to be written.
-#! END_DEST_HEADER
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
 #! START_WB_HEADER
-DEFAULT_MACRO DestDataset
-INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_SHAPEFILE_4 $(DestDataset)}         \
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_SHAPEFILE_2 $(SourceDataset)}     \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER SHAPEFILE SHAPEFILE_4
-DEFAULT_MACRO DestDataset_SHAPEFILE_4 $(DestDataset_SHAPEFILE)
-GUI DIRNAME DestDataset_SHAPEFILE_4 Destination Esri Shapefile Folder:
-SHAPEFILE_4_COORDINATE_SYSTEM_GRANULARITY FEATURE_TYPE
-DEFAULT_MACRO SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4 
-GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4 SHAPEFILE_OUT_ENCODING_SHAPEFILE_4%SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4%SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4%SHAPEFILE_OUT_DIMENSION%SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 Writer Parameters
+#! START_SOURCE_HEADER SHAPEFILE SHAPEFILE_2
+DEFAULT_MACRO SourceDataset_SHAPEFILE_2 $(SourceDataset_SHAPEFILE_4)
+GUI MULTIFILE SourceDataset_SHAPEFILE_2 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_2 SHAPEFILE_IN_ENCODING_SHAPEFILE_2%SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING Reader Parameters
 # ============================================================================
 # The following keyword allows the user to choose what encoding to
-# use for outputting the shapefile
-DEFAULT_MACRO SHAPEFILE_OUT_ENCODING_SHAPEFILE_4 fme-source-encoding
-SHAPEFILE_4_ENCODING "$(SHAPEFILE_OUT_ENCODING_SHAPEFILE_4)"
-GUI STRING_OR_ENCODING SHAPEFILE_OUT_ENCODING_SHAPEFILE_4 fme-source-encoding%fme-system%* Character Encoding
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO SHAPEFILE_IN_ENCODING_SHAPEFILE_2 fme-source-encoding
+SHAPEFILE_2_ENCODING "$(SHAPEFILE_IN_ENCODING_SHAPEFILE_2)"
+GUI STRING_OR_ENCODING SHAPEFILE_IN_ENCODING_SHAPEFILE_2 fme-source-encoding%UTF-8%ISO*%Big5%ibm*%Shift_JIS%GB2312%GBK%win*%KSC_5601%macintosh%x-mac* Character Encoding
 # ============================================================================
-# Specifies whether or not the reader will generate spatial index files
-DEFAULT_MACRO SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4 NONE
-SHAPEFILE_4_SPATIAL_INDEXES "$(SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4)"
-GUI LOOKUP_CHOICE SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4 None,NONE%"\"ArcGIS Compatible Spatial Index (.sbn)\",SBN"%"\"QGIS and MapServer Spatial Index (.qix)\",QIX"%"\"Both ArcGIS and QGIS/MapServer Compatible (.sbn<space>and<space>.qix)\",BOTH" Create Spatial Index:
-DEFAULT_MACRO SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4 No
-SHAPEFILE_4_COMPRESSED_FILE "$(SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4)"
-GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4 Yes%No Create Compressed Shapefile (.shz)
-DEFAULT_MACRO SHAPEFILE_OUT_DIMENSION_SHAPEFILE_4 AUTO
-SHAPEFILE_4_DIMENSION "$(SHAPEFILE_OUT_DIMENSION_SHAPEFILE_4)"
-DEFAULT_MACRO SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 TIMESTAMP_STRING
-SHAPEFILE_4_DATETIME_STORAGE "$(SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4)"
-GUI LOOKUP_CHOICE SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 "\"As String <openparen>FME Datetime Format<closeparen>\",TIMESTAMP_STRING"%"\"Date <openparen>YYYYMMDD only<closeparen>\",DATE_ONLY" Datetime Type Storage
-DEFAULT_MACRO SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4 
-GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4 SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4%SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4%SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Advanced
-DEFAULT_MACRO SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4 PATCH
-SHAPEFILE_4_SURFACE_SOLID_STORAGE "$(SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4)"
-GUI LOOKUP_CHOICE SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4 Multipatch,PATCH%Polygon,POLYGON Surface and Solid Storage
+# Determines whether numeric attributes should be interpreted as binary or as
+# bound number fields (ActualDBFrepresentation)
+DEFAULT_MACRO SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_2 STANDARD_TYPES
+SHAPEFILE_2_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_2)"
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_2 
+SHAPEFILE_2_EXPOSE_ATTRS_GROUP "$(SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_2)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2 NO
+SHAPEFILE_2_USE_SEARCH_ENVELOPE "$(SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2)"
+GUI ACTIVEDISCLOSUREGROUP SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_2 SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2%SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2%SHAPEFILE_IN_SEARCH_METHOD%SHAPEFILE_IN_SEARCH_METHOD_FILTER%SHAPEFILE_IN_SEARCH_ORDER%SHAPEFILE_IN_SEARCH_FEATURE%SHAPEFILE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 0
+SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_2 Minimum X:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 0
+SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_2 Minimum Y:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 0
+SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_2 Maximum X:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 <Unused>,0 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 0
+SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2)"
+GUI OPTIONAL FLOAT SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_2 Maximum Y:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 <Unused>, 
+DEFAULT_MACRO SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 
+SHAPEFILE_2_SEARCH_ENVELOPE "$(SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2)"
+GUI OPTIONAL COORDSYS SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_2 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 <Unused>,NO 
+DEFAULT_MACRO SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 NO
+SHAPEFILE_2_CLIP_TO_ENVELOPE "$(SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_2 YES%NO Clip to Search Envelope
+DEFAULT_MACRO SHAPEFILE_IN_ADVANCED_SHAPEFILE_2 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_IN_ADVANCED_SHAPEFILE_2 SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2%SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2%SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2%SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2%SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 Advanced
+DEFAULT_MACRO SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2 Yes
+SHAPEFILE_2_TRIM_PRECEDING_SPACES "$(SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2)"
+GUI CHOICE SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_2 Yes%No Trim Preceding Spaces
+DEFAULT_MACRO SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2 MISSING
+SHAPEFILE_2_READ_BLANK_AS "$(SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2)"
+GUI LOOKUP_CHOICE SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_2 Missing,MISSING%Null,NULL Read Blank Fields as:
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2 ORIENTATION
+SHAPEFILE_2_DONUT_DETECTION "$(SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2)"
+GUI LOOKUP_CHOICE SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_2 "\"Orientation Only\",ORIENTATION"%"\"Orientation and Spatial Relationship\",SPATIAL" Donut Geometry Detection
 # ============================================================================
 # The following GUI line sets whether measure values in the shapefiles should
 # be treated as elevations.
-DEFAULT_MACRO SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4 No
-SHAPEFILE_4_MEASURES_AS_Z "$(SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4)"
-GUI CHOICE SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4 Yes%No Treat Elevation as Measures
-DEFAULT_MACRO SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Yes
-SHAPEFILE_4_DATASET_SPLITTING "$(SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4)"
-GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Yes%No Split Dataset into 2GB Files
+DEFAULT_MACRO SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2 No
+SHAPEFILE_2_MEASURES_AS_Z "$(SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2)"
+GUI CHOICE SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_2 Yes%No Treat Measures as Elevation
 # ============================================================================
-# Opt in for destination dataset type vs format type validation
-DEFAULT_MACRO SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_4 Yes
-SHAPEFILE_4_DESTINATION_DATASETTYPE_VALIDATION "$(SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_4)"
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_errors attribute.
+DEFAULT_MACRO SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 No
+SHAPEFILE_2_REPORT_BAD_GEOMETRY "$(SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2)"
+GUI CHOICE SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_2 Yes%No Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2 
+SHAPEFILE_2_NETWORK_AUTHENTICATION "$(SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2)"
+GUI OPTIONAL AUTHENTICATOR SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
 # ============================================================================ 
-SHAPEFILE_4_GENERATE_FME_BUILD_NUM 20202
-SHAPEFILE_4_ENCODING $(SHAPEFILE_OUT_ENCODING_SHAPEFILE_4)
-SHAPEFILE_4_DATASET "$(DestDataset_SHAPEFILE_4)"
-#! END_DEST_HEADER
+DEFAULT_MACRO SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_2 ALL
+SHAPEFILE_2_ATTRIBUTE_READING "$(SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_2)"
+# ============================================================================ 
+SHAPEFILE_2_GENERATE_FME_BUILD_NUM 20202
+SHAPEFILE_2_DATASET "$(SourceDataset_SHAPEFILE_2)"
+#! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "SHAPEFILE_5"
 #! END_WB_HEADER
@@ -2211,6 +2219,134 @@ SHAPEFILE_5_ENCODING $(SHAPEFILE_OUT_ENCODING_SHAPEFILE_5)
 SHAPEFILE_5_DATASET "$(DestDataset_SHAPEFILE_5)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "SHAPEFILE_4"
+#! END_WB_HEADER
+#! START_DEST_HEADER SHAPEFILE SHAPEFILE_4
+# ============================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the Esri Shapefiles.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_SHAPEFILE_4 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER SHAPEFILE SHAPEFILE_4
+DEFAULT_MACRO DestDataset_SHAPEFILE_4 $(DestDataset_SHAPEFILE)
+GUI DIRNAME DestDataset_SHAPEFILE_4 Destination Esri Shapefile Folder:
+SHAPEFILE_4_COORDINATE_SYSTEM_GRANULARITY FEATURE_TYPE
+DEFAULT_MACRO SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_4 SHAPEFILE_OUT_ENCODING_SHAPEFILE_4%SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4%SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4%SHAPEFILE_OUT_DIMENSION%SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 Writer Parameters
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for outputting the shapefile
+DEFAULT_MACRO SHAPEFILE_OUT_ENCODING_SHAPEFILE_4 fme-source-encoding
+SHAPEFILE_4_ENCODING "$(SHAPEFILE_OUT_ENCODING_SHAPEFILE_4)"
+GUI STRING_OR_ENCODING SHAPEFILE_OUT_ENCODING_SHAPEFILE_4 fme-source-encoding%fme-system%* Character Encoding
+# ============================================================================
+# Specifies whether or not the reader will generate spatial index files
+DEFAULT_MACRO SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4 NONE
+SHAPEFILE_4_SPATIAL_INDEXES "$(SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_4 None,NONE%"\"ArcGIS Compatible Spatial Index (.sbn)\",SBN"%"\"QGIS and MapServer Spatial Index (.qix)\",QIX"%"\"Both ArcGIS and QGIS/MapServer Compatible (.sbn<space>and<space>.qix)\",BOTH" Create Spatial Index:
+DEFAULT_MACRO SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4 No
+SHAPEFILE_4_COMPRESSED_FILE "$(SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_4 Yes%No Create Compressed Shapefile (.shz)
+DEFAULT_MACRO SHAPEFILE_OUT_DIMENSION_SHAPEFILE_4 AUTO
+SHAPEFILE_4_DIMENSION "$(SHAPEFILE_OUT_DIMENSION_SHAPEFILE_4)"
+DEFAULT_MACRO SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 TIMESTAMP_STRING
+SHAPEFILE_4_DATETIME_STORAGE "$(SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_4 "\"As String <openparen>FME Datetime Format<closeparen>\",TIMESTAMP_STRING"%"\"Date <openparen>YYYYMMDD only<closeparen>\",DATE_ONLY" Datetime Type Storage
+DEFAULT_MACRO SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_ADVANCED_SHAPEFILE_4 SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4%SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4%SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Advanced
+DEFAULT_MACRO SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4 PATCH
+SHAPEFILE_4_SURFACE_SOLID_STORAGE "$(SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_4 Multipatch,PATCH%Polygon,POLYGON Surface and Solid Storage
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4 No
+SHAPEFILE_4_MEASURES_AS_Z "$(SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4)"
+GUI CHOICE SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_4 Yes%No Treat Elevation as Measures
+DEFAULT_MACRO SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Yes
+SHAPEFILE_4_DATASET_SPLITTING "$(SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_4 Yes%No Split Dataset into 2GB Files
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_4 Yes
+SHAPEFILE_4_DESTINATION_DATASETTYPE_VALIDATION "$(SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_4)"
+# ============================================================================ 
+SHAPEFILE_4_GENERATE_FME_BUILD_NUM 20202
+SHAPEFILE_4_ENCODING $(SHAPEFILE_OUT_ENCODING_SHAPEFILE_4)
+SHAPEFILE_4_DATASET "$(DestDataset_SHAPEFILE_4)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SHAPEFILE_6"
+#! END_WB_HEADER
+#! START_DEST_HEADER SHAPEFILE SHAPEFILE_6
+# ============================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the Esri Shapefiles.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_SHAPEFILE_6 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER SHAPEFILE SHAPEFILE_6
+DEFAULT_MACRO DestDataset_SHAPEFILE_6 $(DestDataset_SHAPEFILE_3)
+GUI DIRNAME DestDataset_SHAPEFILE_6 Destination Esri Shapefile Folder:
+SHAPEFILE_6_COORDINATE_SYSTEM_GRANULARITY FEATURE_TYPE
+DEFAULT_MACRO SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_6 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_WRITER_PARAMS_SHAPEFILE_6 SHAPEFILE_OUT_ENCODING_SHAPEFILE_6%SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_6%SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_6%SHAPEFILE_OUT_DIMENSION%SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_6 Writer Parameters
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for outputting the shapefile
+DEFAULT_MACRO SHAPEFILE_OUT_ENCODING_SHAPEFILE_6 fme-source-encoding
+SHAPEFILE_6_ENCODING "$(SHAPEFILE_OUT_ENCODING_SHAPEFILE_6)"
+GUI STRING_OR_ENCODING SHAPEFILE_OUT_ENCODING_SHAPEFILE_6 fme-source-encoding%fme-system%* Character Encoding
+# ============================================================================
+# Specifies whether or not the reader will generate spatial index files
+DEFAULT_MACRO SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_6 NONE
+SHAPEFILE_6_SPATIAL_INDEXES "$(SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_6)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_SPATIAL_INDEXES_SHAPEFILE_6 None,NONE%"\"ArcGIS Compatible Spatial Index (.sbn)\",SBN"%"\"QGIS and MapServer Spatial Index (.qix)\",QIX"%"\"Both ArcGIS and QGIS/MapServer Compatible (.sbn<space>and<space>.qix)\",BOTH" Create Spatial Index:
+DEFAULT_MACRO SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_6 No
+SHAPEFILE_6_COMPRESSED_FILE "$(SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_6)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_COMPRESSED_FILE_SHAPEFILE_6 Yes%No Create Compressed Shapefile (.shz)
+DEFAULT_MACRO SHAPEFILE_OUT_DIMENSION_SHAPEFILE_6 AUTO
+SHAPEFILE_6_DIMENSION "$(SHAPEFILE_OUT_DIMENSION_SHAPEFILE_6)"
+DEFAULT_MACRO SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_6 TIMESTAMP_STRING
+SHAPEFILE_6_DATETIME_STORAGE "$(SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_6)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_DATETIME_STORAGE_SHAPEFILE_6 "\"As String <openparen>FME Datetime Format<closeparen>\",TIMESTAMP_STRING"%"\"Date <openparen>YYYYMMDD only<closeparen>\",DATE_ONLY" Datetime Type Storage
+DEFAULT_MACRO SHAPEFILE_OUT_ADVANCED_SHAPEFILE_6 
+GUI OPTIONAL DISCLOSUREGROUP SHAPEFILE_OUT_ADVANCED_SHAPEFILE_6 SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_6%SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_6%SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_6 Advanced
+DEFAULT_MACRO SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_6 PATCH
+SHAPEFILE_6_SURFACE_SOLID_STORAGE "$(SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_6)"
+GUI LOOKUP_CHOICE SHAPEFILE_OUT_SURFACE_SOLID_STORAGE_SHAPEFILE_6 Multipatch,PATCH%Polygon,POLYGON Surface and Solid Storage
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_6 No
+SHAPEFILE_6_MEASURES_AS_Z "$(SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_6)"
+GUI CHOICE SHAPEFILE_OUT_MEASURES_AS_Z_SHAPEFILE_6 Yes%No Treat Elevation as Measures
+DEFAULT_MACRO SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_6 Yes
+SHAPEFILE_6_DATASET_SPLITTING "$(SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_6)"
+GUI OPTIONAL CHECKBOX SHAPEFILE_OUT_DATASET_SPLITTING_SHAPEFILE_6 Yes%No Split Dataset into 2GB Files
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_6 Yes
+SHAPEFILE_6_DESTINATION_DATASETTYPE_VALIDATION "$(SHAPEFILE_OUT_DESTINATION_DATASETTYPE_VALIDATION_SHAPEFILE_6)"
+# ============================================================================ 
+SHAPEFILE_6_GENERATE_FME_BUILD_NUM 20202
+SHAPEFILE_6_ENCODING $(SHAPEFILE_OUT_ENCODING_SHAPEFILE_6)
+SHAPEFILE_6_DATASET "$(DestDataset_SHAPEFILE_6)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
 #! END_WB_HEADER
 #! END_HEADER
 
@@ -2223,15 +2359,12 @@ FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_2 SHAPEFILE_2
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_3 SHAPEFILE_3
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_1 SHAPEFILE_1
-DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_4 SHAPEFILE_4
+DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_2 SHAPEFILE_2
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_5 SHAPEFILE_5
-# -------------------------------------------------------------------------
-
-SHAPEFILE_2_READER_META_ATTRIBUTES fme_feature_type
-
+DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_4 SHAPEFILE_4
+DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_6 SHAPEFILE_6
 # -------------------------------------------------------------------------
 
 SHAPEFILE_3_READER_META_ATTRIBUTES fme_feature_type
@@ -2242,6 +2375,10 @@ SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
+SHAPEFILE_2_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
@@ -2249,29 +2386,45 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME Extracting_adding_district_data
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-SHAPEFILE_2_DEF schleswig_holstein   shapefile_type               shapefile_polygon   USE                          number(11,0)   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
+SHAPEFILE_3_DEF Germany_states   shapefile_type               shapefile_polygon   USE                          long   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
 # -------------------------------------------------------------------------
-SHAPEFILE_3_DEF Germay_district   shapefile_type               shapefile_polygon   USE                          long   RS                           char(5)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
+SHAPEFILE_1_DEF schleswig_holstein   shapefile_type               shapefile_polygon   USE                          number(11,0)   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
 # -------------------------------------------------------------------------
-SHAPEFILE_1_DEF Germany_states   shapefile_type               shapefile_polygon   USE                          long   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE SHAPEFILE SHAPEFILE_2::schleswig_holstein multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_2) TO FME_GENERIC ::schleswig_holstein ALIAS_GEOMETRY    ROUTE SHAPEFILE SHAPEFILE_3::Germay_district multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_3) TO FME_GENERIC ::Germay_district ALIAS_GEOMETRY    ROUTE SHAPEFILE SHAPEFILE_1::Germany_states multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_1) TO FME_GENERIC ::Germany_states ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-SHAPEFILE_2_MERGE_DEF SHAPEFILE_2::schleswig_holstein EXACT schleswig_holstein
-SHAPEFILE_3_MERGE_DEF SHAPEFILE_3::Germay_district EXACT Germay_district
-SHAPEFILE_1_MERGE_DEF SHAPEFILE_1::Germany_states EXACT Germany_states
+SHAPEFILE_2_DEF Germany_district   shapefile_type               shapefile_polygon   USE                          long   RS                           char(5)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Germany_states(SHAPEFILE_1) Splitter"    INPUT FEATURE_TYPE Germany_states    OUTPUT FEATURE_TYPE Germany_states_SHAPEFILE_1
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE SHAPEFILE SHAPEFILE_3::Germany_states multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_3) TO FME_GENERIC ::Germany_states ALIAS_GEOMETRY    ROUTE SHAPEFILE SHAPEFILE_1::schleswig_holstein multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_1) TO FME_GENERIC ::schleswig_holstein ALIAS_GEOMETRY    ROUTE SHAPEFILE SHAPEFILE_2::Germany_district multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_2) TO FME_GENERIC ::Germany_district ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+SHAPEFILE_3_MERGE_DEF SHAPEFILE_3::Germany_states EXACT Germany_states
+SHAPEFILE_1_MERGE_DEF SHAPEFILE_1::schleswig_holstein EXACT schleswig_holstein
+SHAPEFILE_2_MERGE_DEF SHAPEFILE_2::Germany_district EXACT Germany_district
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Germay_district(SHAPEFILE_3) Splitter"    INPUT FEATURE_TYPE Germay_district    OUTPUT FEATURE_TYPE Germay_district_SHAPEFILE_3
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Germany_states(SHAPEFILE_3) Splitter"    INPUT FEATURE_TYPE Germany_states    OUTPUT FEATURE_TYPE Germany_states_SHAPEFILE_3
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "schleswig_holstein(SHAPEFILE_2) Splitter"    INPUT FEATURE_TYPE schleswig_holstein    OUTPUT FEATURE_TYPE schleswig_holstein_SHAPEFILE_2
+FACTORY_DEF * TeeFactory    FACTORY_NAME "schleswig_holstein(SHAPEFILE_1) Splitter"    INPUT FEATURE_TYPE schleswig_holstein    OUTPUT FEATURE_TYPE schleswig_holstein_SHAPEFILE_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Germany_district(SHAPEFILE_2) Splitter"    INPUT FEATURE_TYPE Germany_district    OUTPUT FEATURE_TYPE Germany_district_SHAPEFILE_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE Germany_states_SHAPEFILE_1    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Germany_district_SHAPEFILE_2    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "GEN" "Kreise" "" "RENAME_SET_VALUE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} SpatialRelationshipFactory    FACTORY_NAME SpatialRelator    INPUT BASE FEATURE_TYPE AttributeManager_OUTPUT    INPUT CANDIDATE FEATURE_TYPE schleswig_holstein_SHAPEFILE_1    FLUSH_WHEN_GROUPS_CHANGE No    PREDICATE "INTERSECTS"    LIST_NAME "_relationships"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE ALL    SUCCESS_ATTR "_related_candidates"    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    CALCULATE_CARDINALITY Yes    MERGE_INCOMING_ATTR YES    ATTR_ACCUM_MODE HANDLE_CONFLICT    ATTR_CONFLICT_RES ORIGINAL_IF_CONFLICT    INCOMING_ATTR_PREFIX "<Unused>"    OUTPUT TAGGED FEATURE_TYPE SpatialRelator_Output    OUTPUT REJECTED FEATURE_TYPE SpatialRelator_<Rejected>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SpatialRelator_<Rejected> INPUT FEATURE_TYPE SpatialRelator_<Rejected>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SpatialRelator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter_2    INPUT  FEATURE_TYPE SpatialRelator_Output    OUTPUT FEATURE_TYPE AttributeFilter_2_FILTER
+FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_2_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_2_FILTER FILTER_ATTRIBUTE _relationships<opencurly>0<closecurly>.GEN FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_2_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_2_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_2_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_2_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>EMPTY<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>MISSING<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>NULL<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>NULL<gt>
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_<lt>UNFILTERED<gt>    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "Kreise" "SET_TO" "<at>Value<openparen>Kreise<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "Kreise" "District" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "USE" "USE" "" "REMOVE" }      ATTR_ACTION { "RS" "RS" "" "REMOVE" }      ATTR_ACTION { "RS_ALT" "RS_ALT" "" "REMOVE" }      ATTR_ACTION { "GEN" "State" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.USE" "_relationships<opencurly><closecurly>.USE" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.RS" "_relationships<opencurly><closecurly>.RS" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.RS_ALT" "_relationships<opencurly><closecurly>.RS_ALT" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.GEN" "_relationships<opencurly><closecurly>.GEN" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.SHAPE_LENG" "_relationships<opencurly><closecurly>.SHAPE_LENG" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.SHAPE_AREA" "_relationships<opencurly><closecurly>.SHAPE_AREA" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.de9im" "_relationships<opencurly><closecurly>.de9im" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.pass<opencurly><closecurly>" "_relationships<opencurly><closecurly>.pass<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_point" "_relationships<opencurly><closecurly>.card_point" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_line" "_relationships<opencurly><closecurly>.card_line" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_area" "_relationships<opencurly><closecurly>.card_area" "" "REMOVE" }      ATTR_ACTION { "_related_candidates" "_related_candidates" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE Germany_states_SHAPEFILE_3    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE GEN FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> Baden-W<ufffd>rttemberg Bayern Berlin Brandenburg Bremen Hamburg Hessen Mecklenburg-Vorpommern Niedersachsen Nordrhein-Westfalen Rheinland-Pfalz Saarland Sachsen Sachsen-Anhalt Schleswig-Holstein Th<ufffd>ringen PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt> OUTPUT Baden-W<ufffd>rttemberg FEATURE_TYPE AttributeFilter_Baden-W<ufffd>rttemberg OUTPUT Bayern FEATURE_TYPE AttributeFilter_Bayern OUTPUT Berlin FEATURE_TYPE AttributeFilter_Berlin OUTPUT Brandenburg FEATURE_TYPE AttributeFilter_Brandenburg OUTPUT Bremen FEATURE_TYPE AttributeFilter_Bremen OUTPUT Hamburg FEATURE_TYPE AttributeFilter_Hamburg OUTPUT Hessen FEATURE_TYPE AttributeFilter_Hessen OUTPUT Mecklenburg-Vorpommern FEATURE_TYPE AttributeFilter_Mecklenburg-Vorpommern OUTPUT Niedersachsen FEATURE_TYPE AttributeFilter_Niedersachsen OUTPUT Nordrhein-Westfalen FEATURE_TYPE AttributeFilter_Nordrhein-Westfalen OUTPUT Rheinland-Pfalz FEATURE_TYPE AttributeFilter_Rheinland-Pfalz OUTPUT Saarland FEATURE_TYPE AttributeFilter_Saarland OUTPUT Sachsen FEATURE_TYPE AttributeFilter_Sachsen OUTPUT Sachsen-Anhalt FEATURE_TYPE AttributeFilter_Sachsen-Anhalt OUTPUT Schleswig-Holstein FEATURE_TYPE AttributeFilter_Schleswig-Holstein OUTPUT Th<ufffd>ringen FEATURE_TYPE AttributeFilter_Th<ufffd>ringen
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>
@@ -2293,29 +2446,13 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter Sachsen Transformer Out
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter Sachsen-Anhalt Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_Sachsen-Anhalt
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter Th<ufffd>ringen Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_Th<ufffd>ringen
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Germay_district_SHAPEFILE_3    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "GEN" "Kreise" "" "RENAME_SET_VALUE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} SpatialRelationshipFactory    FACTORY_NAME SpatialRelator    INPUT BASE FEATURE_TYPE AttributeManager_OUTPUT    INPUT CANDIDATE FEATURE_TYPE schleswig_holstein_SHAPEFILE_2    FLUSH_WHEN_GROUPS_CHANGE No    PREDICATE "INTERSECTS"    LIST_NAME "_relationships"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE ALL    SUCCESS_ATTR "_related_candidates"    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    CALCULATE_CARDINALITY Yes    MERGE_INCOMING_ATTR YES    ATTR_ACCUM_MODE HANDLE_CONFLICT    ATTR_CONFLICT_RES ORIGINAL_IF_CONFLICT    INCOMING_ATTR_PREFIX "<Unused>"    OUTPUT TAGGED FEATURE_TYPE SpatialRelator_Output    OUTPUT REJECTED FEATURE_TYPE SpatialRelator_<Rejected>
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SpatialRelator_<Rejected> INPUT FEATURE_TYPE SpatialRelator_<Rejected>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SpatialRelator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter_2    INPUT  FEATURE_TYPE SpatialRelator_Output    OUTPUT FEATURE_TYPE AttributeFilter_2_FILTER
-FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_2_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_2_FILTER FILTER_ATTRIBUTE _relationships<opencurly>0<closecurly>.GEN FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_2_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_2_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_2_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_2_<lt>UNFILTERED<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>EMPTY<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>MISSING<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>MISSING<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 <lt>NULL<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_2_<lt>NULL<gt>
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeFilter_2_<lt>UNFILTERED<gt>    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "Kreise" "SET_TO" "<at>Value<openparen>Kreise<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "Kreise" "District" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "USE" "USE" "" "REMOVE" }      ATTR_ACTION { "RS" "RS" "" "REMOVE" }      ATTR_ACTION { "RS_ALT" "RS_ALT" "" "REMOVE" }      ATTR_ACTION { "GEN" "State" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.USE" "_relationships<opencurly><closecurly>.USE" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.RS" "_relationships<opencurly><closecurly>.RS" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.RS_ALT" "_relationships<opencurly><closecurly>.RS_ALT" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.GEN" "_relationships<opencurly><closecurly>.GEN" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.SHAPE_LENG" "_relationships<opencurly><closecurly>.SHAPE_LENG" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.SHAPE_AREA" "_relationships<opencurly><closecurly>.SHAPE_AREA" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.de9im" "_relationships<opencurly><closecurly>.de9im" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.pass<opencurly><closecurly>" "_relationships<opencurly><closecurly>.pass<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_point" "_relationships<opencurly><closecurly>.card_point" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_line" "_relationships<opencurly><closecurly>.card_line" "" "REMOVE" }      ATTR_ACTION { "_relationships<opencurly><closecurly>.card_area" "_relationships<opencurly><closecurly>.card_area" "" "REMOVE" }      ATTR_ACTION { "_related_candidates" "_related_candidates" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
-# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeFilter_Schleswig-Holstein TO SHAPEFILE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>schleswig_holstein<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeManager_2_OUTPUT TO SHAPEFILE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Districts_SH<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeFilter_Schleswig-Holstein TO SHAPEFILE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>schleswig_holstein<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeManager_2_OUTPUT TO SHAPEFILE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Districts_SH<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-SHAPEFILE_4_DEF schleswig_holstein   shapefile_type               shapefile_first_feature   DIMENSION                    AUTO   USE                          long   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
-# -------------------------------------------------------------------------
 SHAPEFILE_5_DEF Districts_SH   shapefile_type               shapefile_first_feature   DIMENSION                    AUTO   District                     char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double   State                        char(50)
+# -------------------------------------------------------------------------
+SHAPEFILE_6_DEF schleswig_holstein   shapefile_type               shapefile_polygon   DIMENSION                    AUTO   USE                          number(11,0)   RS                           char(2)   RS_ALT                       char(12)   GEN                          char(50)   SHAPE_LENG                   double   SHAPE_AREA                   double
